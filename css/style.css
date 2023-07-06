@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Poppins:wght@500&display=swap');
+
+/* deffaults */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins', sans-serif ;
+} 
+
+a {
+    text-decoration: none!important;
+}
+
+body {
+    background-color: #1b1f22!important;
+}
+
+/* end defaults */
+
+/* column */
+
+.col-unpadding {
+    padding: 0%;
+}
+
+.col-unpadding-5 {
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+}
+
+/* end column */
+
+/* navbars */
+
+.nav-link {
+    color: white!important;
+}
+
+/* end navbar */
+
+/* footers */
+
+.social-media {
+    padding: 0px
+}
+
+ul.social-media-inline li{
+    display: inline;
+    width: auto;
+    list-style: outside none none;
+    margin-right:5px;
+}
+
+.footer-hover{
+    color: white;
+}
+
+.footer-hover:hover {
+    color: #0d6efd;
+}
+
+/* end footer */
+
+/* images */
+
+.img-star {
+    width: 22px;
+}
+
+.img-brand {
+    width: 200px;
+}
+
+.img-mentor {
+    height: 300px;
+    width: 200px;
+}
+
+.img-category {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+/* end images */
+
+/* cards */
+
+.card {
+    border: none!important;
+    border-radius: 0%!important;
+}
+
+.card-body {
+    padding: 15px!important;
+}
+
+.card-category {
+    width: 300px;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: transform 300ms;
+}
+
+.card-category:hover {
+    transform: translateY(-10px);
+}
+
+/* end cards */
+
+/* fonts & text */
+
+p {
+    margin: 0%!important;
+}
+
+.center {
+    text-align: center;
+}
+
+.title-category {
+    vertical-align: middle;
+    display: inline;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-grey {
+    color: rgb(181, 179, 179);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ul {
+    padding: 0%!important;
+}
+
+li {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.center {
+    text-align: center;
+}
+
+.discount {
+    color: #f94d63;
+    background-color: #3f3638;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+/* end font & text */
